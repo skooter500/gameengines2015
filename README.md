@@ -1,6 +1,5 @@
 # DT228/DT211 Game Engines 1
 
-
 ## Resources
 * [Slack](gameengines2015.slack.com)
 * [Webcourses](http://dit.ie/webcourses)
