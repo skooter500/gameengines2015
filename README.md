@@ -35,11 +35,12 @@
 
 - Assignments from previous years:
 
-	[![YouTube](https://www.youtube.com/watch?v=ii049d7UFrg)
+[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
 
-	[![YouTube](https://www.youtube.com/watch?v=5BPxM--x-7M)
+[![YouTube](http://img.youtube.com/vi/5BPxM--x-7M/0.jpg)](https://www.youtube.com/watch?v=5BPxM--x-7M)
 
-	[![YouTube](https://www.youtube.com/watch?v=)
+[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
+
 
 
 
