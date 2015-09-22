@@ -17,6 +17,8 @@
 * Twitter: [@skooter500](http://twitter.com/skooter500)
 * Slack: https://gameengines2015.slack.com
 
+## Weeb 2
+
 ## Week 1
 
 - [Processing with GameComponents example](processing/YASCComponents)
@@ -39,8 +41,3 @@
 [![YouTube](http://img.youtube.com/vi/5BPxM--x-7M/0.jpg)](https://www.youtube.com/watch?v=5BPxM--x-7M)
 
 [![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
-
-
-
-
-
