@@ -29,7 +29,7 @@
 
 The aim of this lab is to set up a new scene in Unity3D that looks like the scene below and to implement some simple keyboard handling behaviour to move a 3D model around the scene:
 
-[Scene1](images/scene1.png)
+![Scene1](images/scene1.png)
 
 Firstly clone the repository for the course. To do this, fire up the bash shell and type:
 
@@ -66,11 +66,15 @@ I suggest you watch at least these videos:
 - [The Processing sketch  we wrote in class to demonstrate game components](processing/YASCComponents)
 - [A whole series of lectures I made about OOP in C# a few years ago](https://www.youtube.com/playlist?list=PL1n0B6z4e_E5aB2FqwrNRrhLyO0aqW_Bo)
 - Objects & classes in C#
-	https://www.youtube.com/watch?v=9hqcvnTuESo&index=1&list=PL1n0B6z4e_E5aB2FqwrNRrhLyO0aqW_Bo
+
+	[![YouTube](http://img.youtube.com/vi/9hqcvnTuESo/0.jpg)](https://www.youtube.com/watch?v=9hqcvnTuESo)
+
 - Objects classes & references in C#
+
 	[![YouTube](http://img.youtube.com/vi/tAodHmlY7oI/0.jpg)](https://www.youtube.com/watch?v=tAodHmlY7oI)
 
 - C# Inheritance, static & dynamic binding
+
 	[![YouTube](http://img.youtube.com/vi/IMa3hXM1Rx8/0.jpg)](https://www.youtube.com/watch?v=IMa3hXM1Rx8)
 
 - Procedurally generated minnowforms video:
@@ -85,8 +89,8 @@ I suggest you watch at least these videos:
 
 - Assignments from previous years:
 
-[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
+	[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
 
-[![YouTube](http://img.youtube.com/vi/5BPxM--x-7M/0.jpg)](https://www.youtube.com/watch?v=5BPxM--x-7M)
+	[![YouTube](http://img.youtube.com/vi/5BPxM--x-7M/0.jpg)](https://www.youtube.com/watch?v=5BPxM--x-7M)
 
-[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
+	[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
