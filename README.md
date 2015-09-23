@@ -37,14 +37,14 @@ Firstly clone the repository for the course. To do this, fire up the bash shell 
 git clone https://github.com/skooter500/gameengines2015
 ```
 
-Now start Unity3D and open the project folder Vectors1 from the unity folder in the repo you just cloned. All the assets you need to complete the project are included.
-Create a new, empty scene
-Add a camera and attach the FPSController component. Its a C# component that is one of the project assets.
-Add a plane. 
-Scale the plane to 50 1 50, so that it fills a flat area of 50 x 50
-Texture the plane with the ground texture. To do this you can just drag the texture from the project assets onto the plane.
-Now create the two models. To do this, you have to just drag the models from the project assets onto the scene. The model on the left is cobra mk3 and the model on the right is called a ferdelance.
-Attach a new game component to the cobra mk3 and have a go at implementing a behaviour that causes the ship to move forward, backward, left and right in response to the arrow keys. This is how you detect key presses in Unity3D:
+-Now start Unity3D and open the project folder Vectors1 from the unity folder in the repo you just cloned. All the assets you need to complete the project are included.
+-Create a new, empty scene
+-Add a camera and attach the FPSController component. Its a C# component that is one of the project assets.
+-Add a plane. 
+-Scale the plane to 50 1 50, so that it fills a flat area of 50 x 50
+-Texture the plane with the ground texture. To do this you can just drag the texture from the project assets onto the plane.
+-Now create the two models. To do this, you have to just drag the models from the project assets onto the scene. The model on the left is cobra mk3 and the model on the right is called a ferdelance.
+-Attach a new game component to the cobra mk3 and have a go at implementing a behaviour that causes the ship to move forward, backward, left and right in response to the arrow keys. This is how you detect key presses in Unity3D:
 
 ```C#
 if (Input.GetKey(KeyCode.W))
