@@ -17,6 +17,47 @@
 * Twitter: [@skooter500](http://twitter.com/skooter500)
 * Slack: https://gameengines2015.slack.com
 
+
+# Week 1
+
+##Lecture
+
+- [Processing with GameComponents example](processing/YASCComponents)
+- [Starter Unity3D project](unity/Vectors1)
+- [The Processing sketch  we wrote in class to demonstrate game components](processing/YASCComponents)
+- [A whole series of lectures I made about OOP in C# a few years ago](https://www.youtube.com/playlist?list=PL1n0B6z4e_E5aB2FqwrNRrhLyO0aqW_Bo)
+- Objects & classes in C#
+
+	[![YouTube](http://img.youtube.com/vi/9hqcvnTuESo/0.jpg)](https://www.youtube.com/watch?v=9hqcvnTuESo)
+
+- Objects classes & references in C#
+
+	[![YouTube](http://img.youtube.com/vi/tAodHmlY7oI/0.jpg)](https://www.youtube.com/watch?v=tAodHmlY7oI)
+
+- C# Inheritance, static & dynamic binding
+
+	[![YouTube](http://img.youtube.com/vi/IMa3hXM1Rx8/0.jpg)](https://www.youtube.com/watch?v=IMa3hXM1Rx8)
+
+- Procedurally generated minnowforms video:
+
+	[![YouTube](http://img.youtube.com/vi/5G-PKD5GnlE/0.jpg)](https://www.youtube.com/watch?v=5G-PKD5GnlE)
+
+- NILL One of my game jam games. It uses lots of nice come sci stuff like Perlin noise, procedural generation and binary search
+
+	[![YouTube](http://img.youtube.com/vi/RkReFavQbQo/0.jpg)](https://www.youtube.com/watch?v=RkReFavQbQo)
+
+	[NILL Sourcecode](http://github.com/skooter500/NILL)
+
+- Assignments from previous years:
+
+	[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
+
+	[![YouTube](http://img.youtube.com/vi/5BPxM--x-7M/0.jpg)](https://www.youtube.com/watch?v=5BPxM--x-7M)
+
+	[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
+
+## Lab
+
 ## Week 2
 ## Lab
 ### Learning outcomes
@@ -59,38 +100,6 @@ I suggest you watch at least these videos:
 - [The Unity3D interface & essentials](https://unity3d.com/learn/tutorials/topics/interface-essentials)
 - [Scripting](https://unity3d.com/learn/tutorials/topics/scripting)
 
-## Week 1
+Additional stuff from the lab:
 
-- [Processing with GameComponents example](processing/YASCComponents)
-- [Starter Unity3D project](unity/Vectors1)
-- [The Processing sketch  we wrote in class to demonstrate game components](processing/YASCComponents)
-- [A whole series of lectures I made about OOP in C# a few years ago](https://www.youtube.com/playlist?list=PL1n0B6z4e_E5aB2FqwrNRrhLyO0aqW_Bo)
-- Objects & classes in C#
-
-	[![YouTube](http://img.youtube.com/vi/9hqcvnTuESo/0.jpg)](https://www.youtube.com/watch?v=9hqcvnTuESo)
-
-- Objects classes & references in C#
-
-	[![YouTube](http://img.youtube.com/vi/tAodHmlY7oI/0.jpg)](https://www.youtube.com/watch?v=tAodHmlY7oI)
-
-- C# Inheritance, static & dynamic binding
-
-	[![YouTube](http://img.youtube.com/vi/IMa3hXM1Rx8/0.jpg)](https://www.youtube.com/watch?v=IMa3hXM1Rx8)
-
-- Procedurally generated minnowforms video:
-
-	[![YouTube](http://img.youtube.com/vi/5G-PKD5GnlE/0.jpg)](https://www.youtube.com/watch?v=5G-PKD5GnlE)
-
-- NILL One of my game jam games. It uses lots of nice come sci stuff like Perlin noise, procedural generation and binary search
-
-	[![YouTube](http://img.youtube.com/vi/RkReFavQbQo/0.jpg)](https://www.youtube.com/watch?v=RkReFavQbQo)
-
-	[NILL Sourcecode](http://github.com/skooter500/NILL)
-
-- Assignments from previous years:
-
-	[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
-
-	[![YouTube](http://img.youtube.com/vi/5BPxM--x-7M/0.jpg)](https://www.youtube.com/watch?v=5BPxM--x-7M)
-
-	[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
+- [The ship moving around the screen and firing bullets Processing example](processing/ShipAndBullets)
