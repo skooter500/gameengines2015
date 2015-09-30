@@ -57,6 +57,7 @@
 	[![YouTube](http://img.youtube.com/vi/ii049d7UFrg/0.jpg)](https://www.youtube.com/watch?v=ii049d7UFrg)
 
 ## Lab
+- No lab this week
 
 ## Week 2
 ## Lab
@@ -103,3 +104,8 @@ I suggest you watch at least these videos:
 Additional stuff from the lab:
 
 - [The ship moving around the screen and firing bullets Processing example](processing/ShipAndBullets)
+
+## Lecture
+- Check out the ShipMovement code in the Vectors1 project
+
+
