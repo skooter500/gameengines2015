@@ -16,7 +16,7 @@ public class FPSController : MonoBehaviour {
 	void Start () 
 	{ 
 		Cursor.visible = false;
-		Screen.lockCursor = true;
+		//Screen.lockCursor = false;
 	}
 
 	void Yaw(float angle)

@@ -25,11 +25,11 @@ public class SimpleMovement : MonoBehaviour {
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Rotate(Vector3.up, - aSpeed * Time.deltaTime);
+            transform.Translate(-speed * Time.deltaTime, 0, 0 );
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Rotate(Vector3.up, aSpeed * Time.deltaTime);
+            transform.Translate(speed * Time.deltaTime, 0, 0);
         }
 
 
