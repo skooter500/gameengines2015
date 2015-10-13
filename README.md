@@ -108,4 +108,29 @@ Additional stuff from the lab:
 ## Lecture
 - Check out the ShipMovement code in the Vectors1 project
 
+# Week 3
+## Lecture
+- [Lecture notes 2](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263984&authkey=!AE-BvjCbphg3dOs&ithint=folder%2clnk)
 
+## Lab
+- No lab this week
+
+# Week 4
+## Lecture
+- Trigonometry
+- [Lecture notes 3](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263984&authkey=!AE-BvjCbphg3dOs&ithint=folder%2clnk)
+## Lab
+- Procedurally generated content in Unity
+
+# Week 5
+## Lecture
+- [3 part tutorial all about trigonometry, vectors and matrices](http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/)
+- [Lecture notes 3](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263984&authkey=!AE-BvjCbphg3dOs&ithint=folder%2clnk)
+
+## Lab
+
+- For this lab, we will be making a simple patrol/stealth AI for the ferdelance ship in the scene. You should start by checking out the master branch of the repo for the course:
+
+	```bash
+	git clone https://github.com/skooter500/gameengines2015 
+	```  

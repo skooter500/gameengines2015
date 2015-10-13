@@ -15,8 +15,6 @@ public class FPSController : MonoBehaviour {
     // Use this for initialization
 	void Start () 
 	{ 
-		Cursor.visible = false;
-		//Screen.lockCursor = false;
 	}
 
 	void Yaw(float angle)
@@ -85,6 +83,17 @@ public class FPSController : MonoBehaviour {
         {
             position += gameObject.transform.right * Time.deltaTime * speed;
         }
+        if (Input.GetKey(KeyCode.R))
+        {
+            position += gameObject.transform.up * Time.deltaTime * speed;
+        }
+
+        if (Input.GetKey(KeyCode.F))
+        {
+            position -= gameObject.transform.up * Time.deltaTime * speed;
+        }
+
+
 
         mouseX = Input.GetAxis("Mouse X");
         mouseY = Input.GetAxis("Mouse Y");
