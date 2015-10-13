@@ -131,10 +131,6 @@ Additional stuff from the lab:
 
 - For this lab, we will be making a patrol/stealth AI for the ferdelance ship in the scene. You should start by checking out the master branch of the repo for the course:
 
-Here is what the finished project should look like (click the image for the video):
-
-[![YouTube](http://img.youtube.com/vi/ic173YnL-ss/0.jpg)](https://www.youtube.com/watch?v=ic173YnL-ss)
-
 	```bash
 	git clone https://github.com/skooter500/gameengines2015 
 	```  
@@ -143,6 +139,11 @@ Here is what the finished project should look like (click the image for the vide
 	```bash
 	git pull 
 	```  
+Here is what the finished project should look like (click the image for the video):
+
+[![YouTube](http://img.youtube.com/vi/ic173YnL-ss/0.jpg)](https://www.youtube.com/watch?v=ic173YnL-ss)
+	
+	
 - First thing to do is to set the ferdelance initial position to be (0, 0, 0), the cobramk2 position to be (20, 0, 0) and the camera to be (5, 20, 0)
 - Now add a new component to the Ferdelance and call it Guard.
 - Add the following fields:
