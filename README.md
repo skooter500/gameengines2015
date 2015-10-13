@@ -142,7 +142,7 @@ git pull
 
 Here is what the finished project should look like (click the image for the video):
 
-[![YouTube](http://img.youtube.com/vi/ic173YnL-ss/0.jpg)](https://www.youtube.com/watch?v=ic173YnL-ss)
+	[![YouTube](http://img.youtube.com/vi/ic173YnL-ss/0.jpg)](https://www.youtube.com/watch?v=ic173YnL-ss)
 	
 	
 - First thing to do is to set the ferdelance initial position to be (0, 0, 0), the cobramk2 position to be (20, 0, 0) and the camera to be (5, 20, 0)
@@ -160,17 +160,17 @@ Here is what the finished project should look like (click the image for the vide
 	public float range = 20.0f;
 	int currentWaypoint = 0;
 	```
-- Add code to the Start method to add 9 random positions to the waypoints array. You should also add the current position. You can use ```.Add``` to add something to a list. You can use Random.randomInsideUnitSphere to give a random Vector3 inside the unit Sphere. Dont forget th set the y to be 0. Also you iterate a List the same way as an array and you can use [] to get an emelemnt out of the List and .Count to return the number of elements in the List
-- Add a method called ```void OnDrawGizmos()```. Gizmos in Unity get drawn in the Scene window. You can display them in the Game window by toggling the option in the game window toolbar. Gizmos are things that dont get drawn in the game, but are useful in helping you to develop your game. In this method, you should draw the path. Here are some methods you will want to use:
+- Add code to the Start method to add 9 random positions to the waypoints array. You should also add the current position. You can use ```.Add``` to add something to a list. You can use Random.randomInsideUnitSphere to generate a random Vector3 inside the unit sphere. Dont forget to set the y to be 0 and multiply by the radius. Also you iterate a List the same way as an array and you can use [] to get an emelemnt out of the List and .Count to return the number of elements in the List
+- Add a method called ```void OnDrawGizmos()```. Gizmos in Unity get drawn in the Scene window. You can display them in the Game window by toggling the option in the game window toolbar. Gizmos are things that don't get drawn in the game, but are useful in helping you to develop your game. In this method, you should draw the path. Here are some methods you will want to use:
 
 	```C#
 	Gizmos.color = Color.cyan;
     Gizmos.DrawLine(v1, v2); // v1 and v2 are the start and end points of the line. They are of type Vector3
 	Gizmos.DrawWireSphere(c, r); // Draws a sphere centered at c with radius r
 	``` 	
-- In the Update method, put code to have the Ferdelance follow the path. If the distance to the next waypoint < 0.1f, you should advance to the next waypoint. I used the variable ```currentWaypoint``` to give the currentWaypoint.	You can use ```Vector3.Distance``` to return the distance between two Vector3's. Make sure your Ferdelance follows the path before moving on to the next part
+- In the Update method, put code to have the Ferdelance follow the path. If the distance to the next waypoint < 0.1f, you should advance to the next waypoint. You can use ```Vector3.Distance``` to return the distance between two Vector3's. Make sure your Ferdelance follows the path before moving on to the next part
 - Drag the cobramk2 onto the player field of the Guard
-- Now add code to the Update method to get the Ferdelance to switch behaviour if the cobramk2 is in range and inside the fov. When this happend the Ferdelance should move to intercept the cobramk2
+- Now add code to the Update method to get the Ferdelance to switch behaviour if the cobramk2 is in range and inside the fov. When this happens, the Ferdelance should move to intercept the cobramk2
 - If the cobramk2 goes out of range or out of the fov of the Ferdelance, the Ferdelance should return to following it's path 
    	
 	
