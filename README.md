@@ -129,6 +129,8 @@ Additional stuff from the lab:
 
 ## Lab
 
+- [Take a minute to fill out this survey](https://www.surveymonkey.com/r/Y5YRJTV)
+
 - For this lab, we will be making a patrol/stealth AI for the ferdelance ship in the scene. You should start by checking out the master branch of the repo for the course:
 
 ```bash
