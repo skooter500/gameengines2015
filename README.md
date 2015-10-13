@@ -131,14 +131,15 @@ Additional stuff from the lab:
 
 - For this lab, we will be making a patrol/stealth AI for the ferdelance ship in the scene. You should start by checking out the master branch of the repo for the course:
 
-	```bash
-	git clone https://github.com/skooter500/gameengines2015 
-	```  
+```bash
+git clone https://github.com/skooter500/gameengines2015 
+```  
 	If you already have a clone of the lab, then you canjust pull the latest version:
 	
-	```bash
-	git pull 
-	```  
+```bash
+git pull 
+```  
+
 Here is what the finished project should look like (click the image for the video):
 
 [![YouTube](http://img.youtube.com/vi/ic173YnL-ss/0.jpg)](https://www.youtube.com/watch?v=ic173YnL-ss)
