@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
+
 public class Guard : MonoBehaviour {
 
     public List<Vector3> waypoints = new List<Vector3>();
