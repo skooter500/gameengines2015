@@ -109,24 +109,22 @@ Additional stuff from the lab:
 - Check out the ShipMovement code in the Vectors1 project
 
 # Week 3
-## Lecture
-- [Lecture notes 2](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263984&authkey=!AE-BvjCbphg3dOs&ithint=folder%2clnk)
 
 ## Lab
 - No lab this week
 
-# Week 4
 ## Lecture
-- Trigonometry
-- [Lecture notes 3](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263984&authkey=!AE-BvjCbphg3dOs&ithint=folder%2clnk)
+- [Lecture notes 2](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263984&authkey=!AE-BvjCbphg3dOs&ithint=folder%2clnk)
+
+# Week 4
 ## Lab
 - Procedurally generated content in Unity
 
-# Week 5
 ## Lecture
-- [3 part tutorial all about trigonometry, vectors and matrices](http://blog.wolfire.com/2009/07/linear-algebra-for-game-developers-part-1/)
+- Trigonometry
 - [Lecture notes 3](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263984&authkey=!AE-BvjCbphg3dOs&ithint=folder%2clnk)
 
+# Week 5
 ## Lab
 
 - [Take a minute to fill out this survey](https://www.surveymonkey.com/r/Y5YRJTV)
@@ -174,5 +172,11 @@ Here is what the finished project should look like (click the image for the vide
 - Drag the cobramk2 onto the player field of the Guard
 - Now add code to the Update method to get the Ferdelance to switch behaviour if the cobramk2 is in range and inside the fov. When this happens, the Ferdelance should move to intercept the cobramk2
 - If the cobramk2 goes out of range or out of the fov of the Ferdelance, the Ferdelance should return to following it's path 
-   	
+
+## Lecture
+- Video of the lecture about Newtonian Physics:
+	[![YouTube](http://img.youtube.com/vi/SmMXvnIFiTU/0.jpg)](https://www.youtube.com/watch?v=SmMXvnIFiTU)
+	   	
+# Week 6
+## Lab 
 	
