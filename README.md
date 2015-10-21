@@ -1,7 +1,7 @@
 # DT228/DT211 Game Engines 1
 
 ## Resources
-* [Slack](gameengines2015.slack.com)
+* [Slack](http://gameengines2015.slack.com)
 * [Webcourses](http://dit.ie/webcourses)
 * [Download Unity](http://processing.org)
 * [Download Visual Studio 2015](http://processing.org/reference/)
@@ -179,4 +179,19 @@ Here is what the finished project should look like (click the image for the vide
 	   	
 # Week 6
 ## Lab 
-	
+
+Modify the program we made in the lab/class last week to use forces/Physics instead of movement with uniform velocity. Its in scene3 in thge vectors1 project. To fake rotations, you can just make the velocity vector the forward vector. You can just try to get it working yourself first, but if you can't get it to work, then look up how to implement the [seek steering behaviour](http://natureofcode.com/book/chapter-6-autonomous-agents/).
+
+Once you have it working, make a game component called PathFollower that you can attach to any game object. Then make some procedural paths, instantiate some game objects from a prefab and have them follow the path. 
+
+You could try using sin and cos to make:
+
+- A zigzag pattern
+- A circle
+- A figure of 8
+
+This is one I made yesterday for some inspiration:
+
+[![YouTube](http://img.youtube.com/vi/BuyQNxwLC9g/0.jpg)](https://www.youtube.com/watch?v=BuyQNxwLC9g)
+
+When you are done, [upload some pictures/videos of your creations to the slack](http://gameengines2015.slack.com).
