@@ -2,19 +2,19 @@
 
 Your assignment is to create an impressive, beautiful and awe inspiring system in Unity by using proedural generation wherever possible. Paint a picture in code. Your aim is to wow me. It should look like a tech demo or some of the beautiful visuals that you might see at en electronic music event. Check these out for examples:
 
-	[![YouTube](http://img.youtube.com/vi/rY4-qhGhJIE/0.jpg)](https://www.youtube.com/watch?v=rY4-qhGhJIE)
+[![YouTube](http://img.youtube.com/vi/rY4-qhGhJIE/0.jpg)](https://www.youtube.com/watch?v=rY4-qhGhJIE)
 
-	[![YouTube](http://img.youtube.com/vi/5fZT4dnkXM8/0.jpg)](https://www.youtube.com/watch?v=rY4-5fZT4dnkXM8)
+[![YouTube](http://img.youtube.com/vi/5fZT4dnkXM8/0.jpg)](https://www.youtube.com/watch?v=rY4-5fZT4dnkXM8)
 
-	[![YouTube](http://img.youtube.com/vi/8KRe7oeOdE8/0.jpg)](https://www.youtube.com/watch?v=8KRe7oeOdE8)
+[![YouTube](http://img.youtube.com/vi/8KRe7oeOdE8/0.jpg)](https://www.youtube.com/watch?v=8KRe7oeOdE8)
 
-	[![YouTube](http://img.youtube.com/vi/fpViZkhpPHk/0.jpg)](https://www.youtube.com/watch?v=fpViZkhpPHk)
+[![YouTube](http://img.youtube.com/vi/fpViZkhpPHk/0.jpg)](https://www.youtube.com/watch?v=fpViZkhpPHk)
 
-	[![YouTube](http://img.youtube.com/vi/8tXJ9BzqHic/0.jpg)](https://www.youtube.com/watch?v=8tXJ9BzqHic)
+[![YouTube](http://img.youtube.com/vi/8tXJ9BzqHic/0.jpg)](https://www.youtube.com/watch?v=8tXJ9BzqHic)
 
 Or Child of Eden:
 
-https://www.youtube.com/watch?v=
+[![YouTube](http://img.youtube.com/vi/ic8r_Z9vS-Q/0.jpg)](https://www.youtube.com/watch?v=ic8r_Z9vS-Q)
 
 You should aim to create the effect of your project through prodcural means and I encourage you to make everything in this assignment yourself. If you want to use 3D models you should create them yourself. The only exception is audio. If you find a beautiful piece of music that you need for your demo you can go ahead and use it.
 
@@ -26,6 +26,8 @@ Here are some ideas but please dont limit yourself to these! I would prefer you 
  - A Procedural planet
  - Use the Mechanim system in Unity to rig and animate an animal or robot character and control the animations with a state machine
  - A geometric structure based on Fractals, noise or mathematical functions such as sine waves etc
+ - An infinite terrain or building
+ - A procedural city generator
  - Procedural trees or forests
  - Something Kinect or Leap motion controlled. Or use a custom controller that you make yourself  
  - A simulation of a natural or biological system
