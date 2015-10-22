@@ -17,6 +17,9 @@
 * Twitter: [@skooter500](http://twitter.com/skooter500)
 * Slack: https://gameengines2015.slack.com
 
+# Assignment
+- [Assignment](assignment.md)
+
 
 # Week 1
 
@@ -195,3 +198,5 @@ This is one I made yesterday for some inspiration:
 [![YouTube](http://img.youtube.com/vi/BuyQNxwLC9g/0.jpg)](https://www.youtube.com/watch?v=BuyQNxwLC9g)
 
 When you are done, [upload some pictures/videos of your creations to the slack](http://gameengines2015.slack.com).
+
+- How I made the path in the video is in Scene3 in the Vectors1 Unity Project now.
