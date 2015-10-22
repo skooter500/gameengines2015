@@ -39,6 +39,8 @@ Here are some ideas but please dont limit yourself to these! I would prefer you 
  
  # Marking Scheme
  
+ | Category | %|
+ |----------|--|
  | Complexity | 30% |
  | Polish     | 30% |
  | Code design| 30% |
