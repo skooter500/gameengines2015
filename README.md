@@ -199,4 +199,4 @@ This is one I made yesterday for some inspiration:
 
 When you are done, [upload some pictures/videos of your creations to the slack](http://gameengines2015.slack.com).
 
-- How I made the path in the video is in Scene3 in the Vectors1 Unity Project now.
+- How I made the path in the video is in Scene4 in the Vectors1 Unity Project now.
