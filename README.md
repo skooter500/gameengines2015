@@ -200,3 +200,6 @@ This is one I made yesterday for some inspiration:
 When you are done, [upload some pictures/videos of your creations to the slack](http://gameengines2015.slack.com).
 
 - How I made the path in the video is in Scene4 in the Vectors1 Unity Project now.
+
+## Lecture
+- The procedural mesh generation in Unity example we made is in in Scene5 in the Vectors1 Unity Project now. The class ProcMesh is the class we made on Friday. ProcGen is a more complete example with colliders.

@@ -18,7 +18,7 @@ Or Child of Eden:
 
 You should aim to create the effect of your project through prodcural means and I encourage you to make everything in this assignment yourself. If you want to use 3D models you should create them yourself. The only exception is audio. If you find a beautiful piece of music that you need for your demo you can go ahead and use it.
 
-Here are some ideas but please dont limit yourself to these! I would prefer you to come up with your own:
+Here are some ideas but please don't limit yourself to these! I would prefer you to come up with your own:
 
  - A Perlin noise flow field "flocking" simulation
  - A Procedural Minecraft style voxel world, with Mountains and rivers and lakes, coloured and rendered appropriately
@@ -46,14 +46,14 @@ Here are some ideas but please dont limit yourself to these! I would prefer you 
  | Code design| 30% |
  | Jazz       | 10% | 
  
- # Rubrick
+ # Rubric
  
  | Grade | Profile |
  |-------|---------|
- | First | You will have spent in excess of 20 hours on the assignment. There will be 80+ git checkins. Your demo will look impressive and or beautiful and or very novel or cool. The demo should be technically impressive and you will have used some complex maths, algorithms, challenging API's or demonstrate some deep knowledge of Unity in your solution. Your system will be exposed to Unity properly via game components, gizmos and editors. It should be easy for someone to customise. It will be of the quality of a €10 asset from the Unity Asset Store |
- | 2.1   | You wil have spend 10-16 hours on the assignment with around 30-70 checkins. You will have implemented a moderity complex system which relies somewhat on Unity stuff like the animation system, trail renderers or partical systems to be impressive. In other words its got a bit more emphhasis on stuff thats built into Unity rather than what you made. Nevertheless you should have implemented some complex system. You might have made some game components and classes, but your solution might have always used best practices and design patterns. For example, long methods here and there withough enough granularity. You might not have exposed all the editors and gizmos that your system might benifit from and your system might be not so customisable| 
- | 2.2   | You will spend around a day on the assignmemnt and will have implemented a simple system based on sine waves or similar. You might have around 30 checkins or less. Your solutions is one or two game components in complexity. There might be random colours no audio or inappropriate audio. Your system might glitch a bit and would need a fair bit of future work to make it publishable or uselful|
- | Pass  | You will spend less than a day on the assignment and get something very basic implemented like a spiral or a simple voxel world. No git use or evidence of many checkins|
+ | First | You will have spent in excess of 20 hours on the assignment. There will be 80+ git check-ins. Your demo will look impressive and or beautiful and or very novel or cool. The demo should be technically impressive and you will have used some complex maths, algorithms, challenging API's or demonstrate some deep knowledge of Unity in your solution. Your system will be exposed to Unity properly via game components, gizmos and editors. It should be easy for someone to customise. It will be of the quality of a €10 asset from the Unity Asset Store |
+ | 2.1   | You will have spend 10-16 hours on the assignment with around 30-70 check-ins. You will have implemented a moderately complex system which relies somewhat on Unity stuff like the animation system, trail renderers or particle systems to be impressive. In other words its got a bit more emphasis on stuff thats built into Unity rather than what you made. Nevertheless you should have implemented some complex system. You might have made some game components and classes, but your solution might have always used best practices and design patterns. For example, long methods here and there without enough granularity. You might not have exposed all the editors and gizmos that your system might benefit from and your system might be not so customisable| 
+ | 2.2   | You will spend around a day on the assignment and will have implemented a simple system based on sine waves or similar. You might have around 30 check-ins or less. Your solutions is one or two game components in complexity. There might be random colours no audio or inappropriate audio. Your system might glitch a bit and would need a fair bit of future work to make it publishable or useful|
+ | Pass  | You will spend less than a day on the assignment and get something very basic implemented like a spiral or a simple voxel world. No git use or evidence of many check-ins|
  | Fail  | Nothing works, and no git. Looks like it took a few hours to make | 
  
  - Assignments from previous years:
