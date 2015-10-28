@@ -10,7 +10,7 @@ public class FPSController : MonoBehaviour {
     Vector3 right;
     Vector3 up;
     Quaternion orientation;
-    float speed = 20.0f;
+    float speed = 100.0f;
     float mouseX, mouseY;
     // Use this for initialization
 	void Start () 
