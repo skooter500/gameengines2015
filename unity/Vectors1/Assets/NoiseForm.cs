@@ -235,6 +235,14 @@ public class NoiseForm : MonoBehaviour {
         return gm;
     }
 
+    void Awake()
+    {
+        textureGenerator = GetComponent<TextureGenerator>();
+        if (textureGenerator != null)
+        {
+            texture = textureGenerator.GenerateTexture();
+        }
+    }
 
     void Start()
     {
@@ -250,11 +258,7 @@ public class NoiseForm : MonoBehaviour {
         Random.seed = 42;
         player = GameObject.FindGameObjectWithTag("Player");
 
-        textureGenerator = GetComponent<TextureGenerator>();
-        if (textureGenerator != null)
-        {
-            texture = textureGenerator.GenerateTexture();
-        }
+        
        foreach(GameObject tile in tiles)
        {
            tile.GetComponent<Renderer>().material.SetTexture(0, texture);

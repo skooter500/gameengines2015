@@ -7,11 +7,10 @@ public class CirclePath : MonoBehaviour {
     public float thetaOffset = 0.0f;
     public int numberOfWaypoints = 12;
     public float height;
-    private PathFollower pathFollower;    
-
+    private PathFollower pathFollower;
+    
     // Use this for initialization
     void Start () {
-
         pathFollower = GetComponent<PathFollower>();
 
         float thetaInc = Mathf.PI * 2.0f / (float)numberOfWaypoints;

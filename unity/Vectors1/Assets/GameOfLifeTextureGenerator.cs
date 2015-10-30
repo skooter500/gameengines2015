@@ -3,8 +3,7 @@ using System.Collections;
 
 public class GameOfLifeTextureGenerator : TextureGenerator
 {
-    [HideInInspector]
-    public Texture2D texture;
+    
 
     public Color backGround;
     public Color foreGround;
@@ -75,30 +74,34 @@ public class GameOfLifeTextureGenerator : TextureGenerator
         t += ((Time.deltaTime * 2.0f) / delay);
         texture.Apply();
     }
+    
 
     public override Texture2D GenerateTexture()
-    {
-        texture = new Texture2D(boardWidth, boardHeight, TextureFormat.RGBAFloat, false);
-        texture.filterMode = FilterMode.Point;
-        StartCoroutine("UpdateBoard");
-        //StartCoroutine("ResetBoard");
-        return texture;
-    }
-
-
-    void Start()
     {
         noiseForm = GetComponent<NoiseForm>();
         if (noiseForm == null)
         {
             Debug.LogError("GameOfLifeTextureGenerator with no NoiseForm");
         }
-
         boardWidth = (int)noiseForm.cellsPerTile.x;
         boardHeight = (int)noiseForm.cellsPerTile.y;
-        
+
         current = new bool[boardHeight, boardWidth];
         next = new bool[boardHeight, boardWidth];
+
+        texture = new Texture2D(boardWidth, boardHeight, TextureFormat.RGBAFloat, false);
+        texture.filterMode = FilterMode.Point;
+        StartCoroutine("UpdateBoard");
+        StartCoroutine("ResetBoard");
+        return texture;
+    }
+
+
+    void Start()
+    {
+        
+
+        
         // MakeGosperGun(boardWidth / 2, boardHeight / 2);
         MakeTumbler(boardWidth / 2, boardHeight / 2);
         

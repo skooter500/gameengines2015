@@ -10,7 +10,7 @@ public class FPSController : MonoBehaviour {
     Vector3 right;
     Vector3 up;
     Quaternion orientation;
-    float speed = 100.0f;
+    public float speed = 100.0f;
     float mouseX, mouseY;
     // Use this for initialization
 	void Start () 
@@ -59,9 +59,9 @@ public class FPSController : MonoBehaviour {
 		
 		UpdateMe();
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed *= 2.0f;
+            speed *= 3.0f;
         }
         
         if (Input.GetKey(KeyCode.W)) 
