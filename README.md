@@ -203,3 +203,17 @@ When you are done, [upload some pictures/videos of your creations to the slack](
 
 ## Lecture
 - The procedural mesh generation in Unity example we made is in in Scene5 in the Vectors1 Unity Project now. The class ProcMesh is the class we made on Friday. ProcGen is a more complete example with colliders.
+
+## Week 7
+### Lecture
+- Check out the Vector1 one project for lots of examples of procedurally generated stuff in Unity. In the class we went through how to make an infinitely regenerating terrain using tiling
+
+## Week 8
+### Lab
+
+Today you could work on your assignment. If you still need some inspiration, you can try and draw the following geometric shapes by programming a mesh procedurally:
+- A cube
+- A pyramid
+- A sphere (you can look up how to make an icosphere)
+
+You could also try drawing the texture procedurally with some patterns like a spiral. 
