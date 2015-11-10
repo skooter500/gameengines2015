@@ -20,7 +20,6 @@
 # Assignment
 - [Assignment](assignment.md)
 
-
 # Week 1
 
 ##Lecture
@@ -217,3 +216,55 @@ Today you could work on your assignment. If you still need some inspiration, you
 - A sphere (you can look up how to make an icosphere)
 
 You could also try drawing the texture procedurally with some patterns like a spiral. 
+
+### Lecture
+- Video of the class:
+
+	[![YouTube](http://img.youtube.com/vi/IXySkVFNhdk/0.jpg)](https://www.youtube.com/watch?v=IXySkVFNhdk)
+
+- Check out the [lecture notes on Quaternions (Game Engines 5)]((https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263984&authkey=!AE-BvjCbphg3dOs&ithint=folder%2clnk))
+
+## Week 9
+
+### Lab
+
+In this lab we will be making quaternions!
+
+Clone the repo for the course and switch to the lab9 branch:
+
+```
+git clone https://github.com/skooter500/gameengines2015
+git checkout lab9
+```
+
+Open up the lab9 scene
+
+When you build and run the project, you will see the the Cobra Mk III  and the Ferdelance. You can control the movement of the Ferdelance using the arrow keys. You can also get the Ferdelance to go up and down using the O and L keys. To complete this lab you will need to make use of the following API calls:
+
+```C#
+Vector3.Dot
+Vector3.Cross
+Vector3.Normalize
+Mathf.Acos
+Mathf.Deg2Rad
+Quaternion.AxisAngle // Make a quaternion. Dont forget the angle parameter is in degrees!
+Quaternion.Slerp // This slerps between two quaternions
+```
+### Part 1
+
+Generate a quaternion for the Cobra Mk III so that it always faces the Ferdelance.
+
+### Part 2
+
+Modify your code so that when you press the space key, the Cobra Mk III gradually turns to face the Ferdelance. Use the ```Quaternion.Slerp``` method to achieve this. ```Quaternion.Slerp``` slerps between two quaternions depending on the value of the *t* parameter. If *t* is 0, the first quaternion is returned. If *t* is 1 the second quaternion is returned. If *t* = 0.5f then a quaternion half way between the first and second quaternions is returned and so on. This is what it should look like:
+
+[![Video](http://img.youtube.com/vi/lkD9tAo9T7s/0.jpg)](http://www.youtube.com/watch?v=lkD9tAo9T7s)
+
+You can use the ```startQuaternion```, ```endQuaternion``` and slerping fields to help achieve this. Just add the ```timeDelta``` to *t* for now.
+
+### Part 3
+Have the speed of rotation controlled by the ```turnRate``` field. This field is given in radians per second. To complete this you will have to:
+
+- Calculte the angle that the Cobra Mark III needs to rotate. Use ```Mathf.Acos``` and ```Vector3.Dot```
+- Calculate the time required to do this (angle / turnRate)
+- Calculate what you need to add to t based on the time required and the time delta.
