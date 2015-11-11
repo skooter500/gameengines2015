@@ -270,7 +270,7 @@ Have the speed of rotation controlled by the ```turnRate``` field. This field is
 
 If you would like to try a different challenge, try implementing the snake-like harmonic motion andfrom this video apply it to some cubes:
 
-[![Video](http://img.youtube.com/vi/SdKvWnG8gI/0.jpg)](http://www.youtube.com/watch?v=SdKvWnG8gI)
+[![Video](http://img.youtube.com/vi/-SdKvWnG8gI/0.jpg)](http://www.youtube.com/watch?v=-SdKvWnG8gI)
 
 Here is the [source code in Processing](https://github.com/skooter500/DT228-OOP-2015/tree/master/processing/harmonic) that implements this
 
