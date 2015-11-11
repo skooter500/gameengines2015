@@ -268,3 +268,20 @@ Have the speed of rotation controlled by the ```turnRate``` field. This field is
 - Calculte the angle that the Cobra Mark III needs to rotate. Use ```Mathf.Acos``` and ```Vector3.Dot```
 - Calculate the time required to do this (angle / turnRate)
 - Calculate what you need to add to t based on the time required and the time delta.
+
+If you would like to try a different challenge, try implementing the snake-like harmonic motion andfrom this video apply it to some cubes:
+
+[![Video](http://img.youtube.com/vi/SdKvWnG8gI/0.jpg)](http://www.youtube.com/watch?v=SdKvWnG8gI)
+
+Here is the [source code in Processing](https://github.com/skooter500/DT228-OOP-2015/tree/master/processing/harmonic) that implements this
+
+How I would do it is:
+
+- Make an empty game object
+- Attach a new game component
+- Expose a field for the number of segments and the speed of the animation
+- In ```Start```, instantiate cubes for the segments and scale them on the y so that they are flatter
+- Position the segments appropriately
+- Instantiate empty game objects for the rotation points and position them appropriately
+- Parent the cubes to them  
+- In update, make quaternions for each of the rotation points

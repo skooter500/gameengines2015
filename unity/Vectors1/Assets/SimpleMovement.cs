@@ -14,6 +14,18 @@ public class SimpleMovement : MonoBehaviour {
         float speed = 10.0f;
         float aSpeed = 90.0f;
 
+        if (Input.GetKey(KeyCode.O))
+        {
+            transform.Translate(0, speed * Time.deltaTime, 0);
+
+        }
+
+        if (Input.GetKey(KeyCode.L))
+        {
+            transform.Translate(0, - speed * Time.deltaTime, 0);
+
+        }
+
         if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(0, 0, speed * Time.deltaTime);
