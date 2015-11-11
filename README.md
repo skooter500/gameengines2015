@@ -230,11 +230,10 @@ You could also try drawing the texture procedurally with some patterns like a sp
 
 In this lab we will be making quaternions!
 
-Clone the repo for the course and switch to the lab9 branch:
+Clone the repo for the course:
 
 ```
 git clone https://github.com/skooter500/gameengines2015
-git checkout lab9
 ```
 
 Open up the lab9 scene
