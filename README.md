@@ -284,3 +284,20 @@ How I would do it is:
 - Instantiate empty game objects for the rotation points and position them appropriately
 - Parent the cubes to them  
 - In update, make quaternions for each of the rotation points
+
+## Lecture
+- Unity Physics. See course notes
+
+# Week 10
+## Lab
+
+Try and make something cool with Unity Physics procedurally. Construct some rigidbodies, add colliders and connect the rigid bodies with joints. Some ideas:
+
+- A rope bridge
+- A 4 wheeled car
+- A cog
+- A robot arm
+- An articulated creature
+- A forklift
+
+When you are done, upload a picture of your creation to slack
