@@ -17,13 +17,11 @@ public class SimpleMovement : MonoBehaviour {
         if (Input.GetKey(KeyCode.O))
         {
             transform.Translate(0, speed * Time.deltaTime, 0);
-
         }
 
         if (Input.GetKey(KeyCode.L))
         {
             transform.Translate(0, - speed * Time.deltaTime, 0);
-
         }
 
         if (Input.GetKey(KeyCode.UpArrow))

@@ -78,12 +78,12 @@ public class PhysicsFactory : MonoBehaviour {
         foreach (Vector3 wheelPosition in wheelPositions)
         {
             GameObject wheel = CreateCylinder(
-            wheelPosition.x
-            , wheelPosition.y
-            , wheelPosition.z
-            , wheelDiameter
-            , wheelWidth
-            , q
+                wheelPosition.x
+                ,wheelPosition.y
+                ,wheelPosition.z
+                ,wheelDiameter
+                ,wheelWidth
+                ,q
             );
             HingeJoint hinge = wheel.AddComponent<HingeJoint>();
             hinge.connectedBody = chassis.GetComponent<Rigidbody>();
@@ -115,7 +115,7 @@ public class PhysicsFactory : MonoBehaviour {
             float theta = thetaInc * i;
             Vector3 cogPos = new Vector3();
             cogPos.x = x + (Mathf.Sin(theta) * radius);
-            cogPos.y = y + (Mathf.Cos(theta) * radius);
+            cogPos.y = y + (Mathf.Cos(theta) * radius);  
             cogPos.z = z;
 
             // Make the cog rotation
