@@ -287,6 +287,7 @@ How I would do it is:
 
 ## Lecture
 - Unity Physics. See course notes
+- [Unity Physics tutorials from the Unity website](https://unity3d.com/learn/tutorials/topics/physics) 
 
 # Week 10
 ## Lab
