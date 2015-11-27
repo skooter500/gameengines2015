@@ -19,5 +19,4 @@ public class Utilities
         return m1 + ((dist / range1) * range2);
     }
 }
-}
 
