@@ -1,5 +1,26 @@
 # Games Engines 1 Assignment 2015-2016
 
+Assignment results
+
+C12380621	60
+C12369056	49
+C11483622	62
+c12331591	70
+C12449618	76
+D11124857	57
+c12339291	52
+C12474932	67
+D15123149	93
+D15123283	59
+C11426432	78
+C10321321	69
+C12509627	51
+C12722625	70
+C12428088	79
+c12388971	57
+C10720209	60
+C12391946	64
+
 Your assignment is to create an impressive, beautiful and awe inspiring system in Unity by using proedural generation wherever possible. Paint a picture in code. Your aim is to wow me. It should look like a tech demo or some of the beautiful visuals that you might see at en electronic music event. Check these out for examples:
 
 [![YouTube](http://img.youtube.com/vi/rY4-qhGhJIE/0.jpg)](https://www.youtube.com/watch?v=rY4-qhGhJIE)
