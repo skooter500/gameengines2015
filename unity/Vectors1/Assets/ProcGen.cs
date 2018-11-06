@@ -14,15 +14,16 @@ class GeneratedMesh
 public class ProcGen : MonoBehaviour {
 
     Mesh mesh;
-    MeshRenderer renderer;
-    MeshCollider collider;
+    MeshRenderer rend;
+    MeshCollider coll;
+    public Material groundMaterial;
 
     GeneratedMesh gm = new GeneratedMesh();
 
     public Vector2 samples = new Vector2(20, 20);
     public float amplitude = 10.0f;
 
-    private Texture2D texture;
+    public Texture2D texture;
 
     System.Collections.IEnumerator DropShape()
     {
@@ -52,21 +53,25 @@ public class ProcGen : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        renderer = gameObject.AddComponent<MeshRenderer>();
-        renderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
-        renderer.receiveShadows = true;
+        rend = gameObject.AddComponent<MeshRenderer>();
+        rend.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+        rend.receiveShadows = true;
         mesh = gameObject.AddComponent<MeshFilter>().mesh;
         mesh.Clear();
-        collider = gameObject.AddComponent<MeshCollider>();
+        coll = gameObject.AddComponent<MeshCollider>();
 
 
-        texture = new Texture2D((int) samples.x, (int) samples.y, TextureFormat.RGBAFloat, false);
-        texture.filterMode = FilterMode.Point;
-        
+        texture = new Texture2D((int)samples.x, (int)samples.y, TextureFormat.RGBAFloat, false)
+        {
+            filterMode = FilterMode.Bilinear
+            ,wrapMode = TextureWrapMode.Mirror
+        };
+
         GenerateMesh();
         GenerateTexture();
 
-        renderer.material.SetTexture(0, texture);
+        rend.material = groundMaterial;
+        rend.material.SetTexture("_MainTex", texture);
 
         StartCoroutine("DropShape");
 
@@ -167,17 +172,8 @@ public class ProcGen : MonoBehaviour {
         mesh.triangles = gm.meshTriangles;
         mesh.RecalculateNormals();
 
-        collider.sharedMesh = null;
-        collider.sharedMesh = mesh;
-
-        Shader shader = Shader.Find("Diffuse");
-
-        Material material = null;
-        if (renderer.material == null)
-        {
-            material = new Material(shader);
-            renderer.material = material;
-        }
+        coll.sharedMesh = null;
+        coll.sharedMesh = mesh;
     }
 
     float theta = 0;
@@ -191,7 +187,7 @@ public class ProcGen : MonoBehaviour {
         }
         theta += Time.deltaTime;
         mesh.vertices = vertices;
-        collider.sharedMesh = null;
-        collider.sharedMesh = mesh;
+        coll.sharedMesh = null;
+        coll.sharedMesh = mesh;
     }
 }
